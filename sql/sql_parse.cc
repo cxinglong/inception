@@ -7885,7 +7885,7 @@ int mysql_get_create_sql_backup_table(
     create_sql->append("end_binlog_file varchar(512),");
     create_sql->append("end_binlog_pos int,");
     create_sql->append("sql_statement longtext,");
-    create_sql->append("host VARCHAR(512),");
+    create_sql->append("host VARCHAR(64),");
     create_sql->append("dbname VARCHAR(64),");
     create_sql->append("tablename VARCHAR(64),");
     create_sql->append("port INT,");
